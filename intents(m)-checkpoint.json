@@ -1,0 +1,499 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "Hello",
+              "Hey"
+            ],
+            "responses": [
+              "Hello! How can I assist you with skin health and diseases today?"
+            ]
+          },
+          {
+            "tag": "skin_disease_overview_1",
+            "patterns": [
+              "What are common skin diseases?",
+              "Can you list some skin diseases?",
+              "What are examples of skin conditions?"
+            ],
+            "responses": [
+              "Common skin diseases include acne, eczema, psoriasis, dermatitis, and fungal infections."
+            ]
+          },
+          {
+            "tag": "skin_disease_overview_2",
+            "patterns": [
+              "What causes skin diseases?",
+              "Why do people get skin diseases?",
+              "What are the main causes of skin conditions?"
+            ],
+            "responses": [
+              "Skin diseases can be caused by genetics, infections, allergies, immune system issues, or environmental factors."
+            ]
+          },
+          {
+            "tag": "acne_1",
+            "patterns": [
+              "What is acne?",
+              "Can you explain acne?",
+              "What causes acne?"
+            ],
+            "responses": [
+              "Acne is a skin condition caused by clogged hair follicles with oil and dead skin cells, leading to pimples and inflammation."
+            ]
+          },
+          {
+            "tag": "acne_2",
+            "patterns": [
+              "How do I treat acne?",
+              "What are the best treatments for acne?",
+              "Can you suggest remedies for acne?"
+            ],
+            "responses": [
+              "Acne can be treated with over-the-counter creams, prescription medications, or lifestyle changes like a healthy diet and proper skincare."
+            ]
+          },
+          {
+            "tag": "eczema_1",
+            "patterns": [
+              "What is eczema?",
+              "Can you explain eczema?",
+              "What causes eczema?"
+            ],
+            "responses": [
+              "Eczema is a condition that makes your skin red, itchy, and inflamed. It is often linked to allergies or genetic factors."
+            ]
+          },
+          {
+            "tag": "eczema_2",
+            "patterns": [
+              "How do I manage eczema?",
+              "What are treatments for eczema?",
+              "Can you suggest remedies for eczema?"
+            ],
+            "responses": [
+              "Eczema can be managed with moisturizers, anti-inflammatory creams, and avoiding triggers like harsh soaps or allergens."
+            ]
+          },
+          {
+            "tag": "psoriasis_1",
+            "patterns": [
+              "What is psoriasis?",
+              "Can you explain psoriasis?",
+              "What causes psoriasis?"
+            ],
+            "responses": [
+              "Psoriasis is an autoimmune condition that causes rapid skin cell growth, leading to thick, scaly patches on the skin."
+            ]
+          },
+          {
+            "tag": "psoriasis_2",
+            "patterns": [
+              "How do I treat psoriasis?",
+              "What are the best treatments for psoriasis?",
+              "Can you suggest remedies for psoriasis?"
+            ],
+            "responses": [
+              "Psoriasis can be treated with topical creams, light therapy, or systemic medications prescribed by a dermatologist."
+            ]
+          },
+          {
+            "tag": "dermatitis_1",
+            "patterns": [
+              "What is dermatitis?",
+              "Can you explain dermatitis?",
+              "What causes dermatitis?"
+            ],
+            "responses": [
+              "Dermatitis is inflammation of the skin caused by irritants, allergies, or genetic factors. It results in redness, itching, and rashes."
+            ]
+          },
+          {
+            "tag": "dermatitis_2",
+            "patterns": [
+              "How do I treat dermatitis?",
+              "What are the best treatments for dermatitis?",
+              "Can you suggest remedies for dermatitis?"
+            ],
+            "responses": [
+              "Dermatitis can be treated with moisturizers, corticosteroid creams, and avoiding irritants or allergens."
+            ]
+          },
+          {
+            "tag": "fungal_infections_1",
+            "patterns": [
+              "What are fungal skin infections?",
+              "Can you explain fungal infections?",
+              "What causes fungal infections?"
+            ],
+            "responses": [
+              "Fungal skin infections are caused by fungi and can lead to conditions like athlete's foot, ringworm, or yeast infections."
+            ]
+          },
+          {
+            "tag": "fungal_infections_2",
+            "patterns": [
+              "How do I treat fungal infections?",
+              "What are the best treatments for fungal infections?",
+              "Can you suggest remedies for fungal infections?"
+            ],
+            "responses": [
+              "Fungal infections can be treated with antifungal creams, powders, or oral medications prescribed by a doctor."
+            ]
+          },
+          {
+            "tag": "skin_allergies_1",
+            "patterns": [
+              "What are skin allergies?",
+              "Can you explain skin allergies?",
+              "What causes skin allergies?"
+            ],
+            "responses": [
+              "Skin allergies occur when your immune system reacts to allergens, causing rashes, itching, or hives."
+            ]
+          },
+          {
+            "tag": "skin_allergies_2",
+            "patterns": [
+              "How do I treat skin allergies?",
+              "What are the best treatments for skin allergies?",
+              "Can you suggest remedies for skin allergies?"
+            ],
+            "responses": [
+              "Skin allergies can be treated with antihistamines, corticosteroid creams, and avoiding known allergens."
+            ]
+          },
+          {
+            "tag": "skin_cancer_1",
+            "patterns": [
+              "What is skin cancer?",
+              "Can you explain skin cancer?",
+              "What causes skin cancer?"
+            ],
+            "responses": [
+              "Skin cancer is the abnormal growth of skin cells, often caused by excessive UV exposure. Types include melanoma, basal cell carcinoma, and squamous cell carcinoma."
+            ]
+          },
+          {
+            "tag": "skin_cancer_2",
+            "patterns": [
+              "How do I prevent skin cancer?",
+              "What are the best ways to avoid skin cancer?",
+              "Can you suggest tips for skin cancer prevention?"
+            ],
+            "responses": [
+              "Prevent skin cancer by using sunscreen, avoiding excessive sun exposure, and regularly checking your skin for unusual changes."
+            ]
+          },
+          {
+            "tag": "vitiligo_1",
+            "patterns": [
+              "What is vitiligo?",
+              "Can you explain vitiligo?",
+              "What causes vitiligo?"
+            ],
+            "responses": [
+              "Vitiligo is a condition where the skin loses its pigment, leading to white patches. It is caused by the destruction of melanocytes."
+            ]
+          },
+          {
+            "tag": "vitiligo_2",
+            "patterns": [
+              "How do I treat vitiligo?",
+              "What are the best treatments for vitiligo?",
+              "Can you suggest remedies for vitiligo?"
+            ],
+            "responses": [
+              "Vitiligo can be treated with topical steroids, light therapy, or cosmetic cover-ups. Consult a dermatologist for personalized treatment."
+            ]
+          },
+          {
+            "tag": "rosacea_1",
+            "patterns": [
+              "What is rosacea?",
+              "Can you explain rosacea?",
+              "What causes rosacea?"
+            ],
+            "responses": [
+              "Rosacea is a chronic skin condition that causes redness, visible blood vessels, and sometimes acne-like bumps on the face."
+            ]
+          },
+          {
+            "tag": "rosacea_2",
+            "patterns": [
+              "How do I treat rosacea?",
+              "What are the best treatments for rosacea?",
+              "Can you suggest remedies for rosacea?"
+            ],
+            "responses": [
+              "Rosacea can be managed with topical creams, oral antibiotics, and avoiding triggers like spicy foods or alcohol."
+            ]
+          },
+          {
+            "tag": "hives_1",
+            "patterns": [
+              "What are hives?",
+              "Can you explain hives?",
+              "What causes hives?"
+            ],
+            "responses": [
+              "Hives are raised, itchy welts on the skin caused by allergic reactions, stress, or infections."
+            ]
+          },
+          {
+            "tag": "hives_2",
+            "patterns": [
+              "How do I treat hives?",
+              "What are the best treatments for hives?",
+              "Can you suggest remedies for hives?"
+            ],
+            "responses": [
+              "Hives can be treated with antihistamines, avoiding triggers, and applying cool compresses to reduce itching."
+            ]
+          },
+          {
+            "tag": "dry_skin_1",
+            "patterns": [
+              "What causes dry skin?",
+              "Why is my skin so dry?",
+              "Can you explain dry skin?"
+            ],
+            "responses": [
+              "Dry skin can be caused by cold weather, low humidity, harsh soaps, or underlying skin conditions."
+            ]
+          },
+          {
+            "tag": "dry_skin_2",
+            "patterns": [
+              "How do I treat dry skin?",
+              "What are the best remedies for dry skin?",
+              "Can you suggest treatments for dry skin?"
+            ],
+            "responses": [
+              "Treat dry skin by using moisturizers, avoiding hot showers, and drinking plenty of water to stay hydrated."
+            ]
+          },
+          {
+            "tag": "oily_skin_1",
+            "patterns": [
+              "What causes oily skin?",
+              "Why is my skin so oily?",
+              "Can you explain oily skin?"
+            ],
+            "responses": [
+              "Oily skin is caused by overactive sebaceous glands, which produce excess oil. It can be influenced by genetics or hormones."
+            ]
+          },
+          {
+            "tag": "oily_skin_2",
+            "patterns": [
+              "How do I manage oily skin?",
+              "What are the best treatments for oily skin?",
+              "Can you suggest remedies for oily skin?"
+            ],
+            "responses": [
+              "Manage oily skin by using oil-free products, washing your face twice daily, and avoiding heavy moisturizers."
+            ]
+          },
+          {
+            "tag": "skin_rash_1",
+            "patterns": [
+              "What causes skin rashes?",
+              "Why do I have a rash?",
+              "Can you explain skin rashes?"
+            ],
+            "responses": [
+              "Skin rashes can be caused by allergies, infections, heat, or contact with irritants like poison ivy."
+            ]
+          },
+          {
+            "tag": "skin_rash_2",
+            "patterns": [
+              "How do I treat a skin rash?",
+              "What are the best remedies for rashes?",
+              "Can you suggest treatments for skin rashes?"
+            ],
+            "responses": [
+              "Treat skin rashes with antihistamines, soothing creams like calamine lotion, and avoiding the irritant causing the rash."
+            ]
+          },
+          {
+            "tag": "sunburn_1",
+            "patterns": [
+              "What causes sunburn?",
+              "Why does sunburn happen?",
+              "Can you explain sunburn?"
+            ],
+            "responses": [
+              "Sunburn is caused by overexposure to UV rays, which damage the skin cells and lead to redness, pain, and peeling."
+            ]
+          },
+          {
+            "tag": "sunburn_2",
+            "patterns": [
+              "How do I treat sunburn?",
+              "What are the best remedies for sunburn?",
+              "Can you suggest treatments for sunburn?"
+            ],
+            "responses": [
+              "Treat sunburn with aloe vera gel, cool compresses, and over-the-counter pain relievers. Stay hydrated and avoid further sun exposure."
+            ]
+          },
+          {
+            "tag": "skin_care_routine_1",
+            "patterns": [
+              "What is a good skincare routine?",
+              "How do I take care of my skin?",
+              "Can you suggest a daily skincare routine?"
+            ],
+            "responses": [
+              "A good skincare routine includes cleansing, moisturizing, and applying sunscreen daily. Exfoliate once or twice a week for smoother skin."
+            ]
+          },
+          {
+            "tag": "skin_care_routine_2",
+            "patterns": [
+              "What products should I use for my skin?",
+              "How do I choose skincare products?",
+              "Can you recommend skincare products?"
+            ],
+            "responses": [
+              "Choose skincare products based on your skin type (oily, dry, combination). Look for gentle cleansers, non-comedogenic moisturizers, and SPF 30+ sunscreen."
+            ]
+          },
+          {
+            "tag": "anti_aging_1",
+            "patterns": [
+              "How do I prevent aging skin?",
+              "What are anti-aging tips?",
+              "Can you explain how to reduce wrinkles?"
+            ],
+            "responses": [
+              "Prevent aging skin by using sunscreen, staying hydrated, eating a healthy diet, and using products with retinoids or antioxidants."
+            ]
+          },
+          {
+            "tag": "anti_aging_2",
+            "patterns": [
+              "What are the best anti-aging products?",
+              "Can you suggest anti-aging treatments?",
+              "How do I reduce fine lines?"
+            ],
+            "responses": [
+              "Effective anti-aging products include retinoids, vitamin C serums, and hyaluronic acid. Consult a dermatologist for advanced treatments like laser therapy."
+            ]
+          },
+          {
+            "tag": "dark_spots_1",
+            "patterns": [
+              "What causes dark spots on the skin?",
+              "Why do I have dark spots?",
+              "Can you explain hyperpigmentation?"
+            ],
+            "responses": [
+              "Dark spots are caused by excess melanin production due to sun exposure, acne, or hormonal changes."
+            ]
+          },
+          {
+            "tag": "dark_spots_2",
+            "patterns": [
+              "How do I treat dark spots?",
+              "What are the best remedies for hyperpigmentation?",
+              "Can you suggest treatments for dark spots?"
+            ],
+            "responses": [
+              "Treat dark spots with products containing ingredients like vitamin C, niacinamide, or hydroquinone. Chemical peels and laser treatments can also help."
+            ]
+          },
+          {
+            "tag": "acne_scars_1",
+            "patterns": [
+              "What causes acne scars?",
+              "Why do I have acne scars?",
+              "Can you explain acne scarring?"
+            ],
+            "responses": [
+              "Acne scars are caused by inflammation from severe acne, which damages the skin tissue and leaves permanent marks."
+            ]
+          },
+          {
+            "tag": "acne_scars_2",
+            "patterns": [
+              "How do I treat acne scars?",
+              "What are the best treatments for acne scars?",
+              "Can you suggest remedies for acne scars?"
+            ],
+            "responses": [
+              "Treat acne scars with microneedling, chemical peels, or laser therapy. Topical treatments like retinoids can also help reduce their appearance."
+            ]
+          },
+          {
+            "tag": "sensitive_skin_1",
+            "patterns": [
+              "What is sensitive skin?",
+              "Can you explain sensitive skin?",
+              "Why is my skin so sensitive?"
+            ],
+            "responses": [
+              "Sensitive skin reacts easily to irritants, causing redness, itching, or burning. It can be caused by genetics or environmental factors."
+            ]
+          },
+          {
+            "tag": "sensitive_skin_2",
+            "patterns": [
+              "How do I care for sensitive skin?",
+              "What are the best products for sensitive skin?",
+              "Can you suggest a routine for sensitive skin?"
+            ],
+            "responses": [
+              "Care for sensitive skin by using fragrance-free, hypoallergenic products. Avoid harsh exfoliants and always patch-test new products."
+            ]
+          },
+          {
+            "tag": "skin_infections_1",
+            "patterns": [
+              "What are bacterial skin infections?",
+              "Can you explain bacterial infections?",
+              "What causes bacterial skin infections?"
+            ],
+            "responses": [
+              "Bacterial skin infections, like cellulitis or impetigo, are caused by bacteria entering the skin through cuts or wounds."
+            ]
+          },
+          {
+            "tag": "skin_infections_2",
+            "patterns": [
+              "How do I treat bacterial skin infections?",
+              "What are the best treatments for bacterial infections?",
+              "Can you suggest remedies for bacterial skin infections?"
+            ],
+            "responses": [
+              "Bacterial skin infections are treated with antibiotics prescribed by a doctor. Keep the affected area clean and avoid scratching."
+            ]
+          },
+          {
+            "tag": "skin_health_tips_1",
+            "patterns": [
+              "How do I keep my skin healthy?",
+              "What are tips for healthy skin?",
+              "Can you explain how to maintain skin health?"
+            ],
+            "responses": [
+              "Keep your skin healthy by staying hydrated, eating a balanced diet, using sunscreen, and following a consistent skincare routine."
+            ]
+          },
+          {
+            "tag": "skin_health_tips_2",
+            "patterns": [
+              "What foods are good for skin health?",
+              "Can you suggest a diet for healthy skin?",
+              "How does diet affect skin health?"
+            ],
+            "responses": [
+              "Foods rich in antioxidants, omega-3 fatty acids, and vitamins (like fruits, vegetables, and fish) promote healthy skin."
+            ]
+          }
+        ]
+      }
